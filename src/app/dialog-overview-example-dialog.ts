@@ -55,9 +55,9 @@ export class DialogOverviewExampleDialog {
       objectControl: ['', [Validators.required]],
       commentControl: ['', [Validators.required]],
     });
-    this.channel = data.channel;
-    this.containerIds = data.loaderContainerIds;
-    this.requests = data.requests;
+    //this.channel = data.channel;
+    //this.containerIds = data.loaderContainerIds;
+    //this.requests = data.requests;
   }
 
   cancel(): void {
